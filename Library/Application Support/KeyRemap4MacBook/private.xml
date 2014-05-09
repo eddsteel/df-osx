@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Disable arrows</name>
+    <appendix>Disable arrow keys</appendix>
+    <identifier>remap.arrow2noop</identifier>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_LEFT, KeyCode::VK_NONE</autogen>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_RIGHT, KeyCode::VK_NONE</autogen>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_UP, KeyCode::VK_NONE</autogen>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_DOWN, KeyCode::VK_NONE</autogen>
+  </item>
+  <item>
+    <name>Tab to option</name>
+    <appendix>(+ When you type Tab only, send Tab)</appendix>
+    <identifier>remap.tab2option_tab</identifier>
+    <autogen>__KeyOverlaidModifier__ KeyCode::TAB, KeyCode::OPTION_L, KeyCode::TAB</autogen>
+    <autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::NONE, KeyCode::BACKSLASH</autogen>
+    <autogen>__KeyToKey__ KeyCode::BACKSLASH, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::BACKSLASH</autogen>
+  </item>
+</root>
