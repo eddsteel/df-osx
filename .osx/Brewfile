@@ -1,0 +1,80 @@
+update
+
+upgrade
+
+
+install coreutils
+install moreutils
+install findutils
+
+install vim --override-system-vi
+install homebrew/dupes/grep
+install homebrew/dupes/screen
+install homebrew/php/php55 --with-gmp
+
+# Use defaults
+install automake
+install bsdmake
+install cmake
+install gcc
+install ghostscript
+install gnu-getopt
+install gnu-sed --default-names
+install gnu-tar
+install zsh
+install ack
+install aspell
+install bcrypt
+install dpkg
+install fakeroot
+install ctags
+install antiword
+install dos2unix
+install curl
+install bazaar
+install flac
+install git
+install mr
+install git-crypt
+install gnupg2
+install gnutls
+install gpg-agent
+install graphviz
+install htop-osx
+install hub
+install imagemagick
+install jshon
+install markdown
+install rlwrap
+install clisp
+install clojure
+install guile
+install haskell-platform
+install erlang
+install scala
+install nailgun
+install sbt
+install objective-caml
+install plt-racket
+install python3
+install ruby
+install sbcl
+install node
+install tmux
+install tree
+install unison
+install unrar
+install urlview
+install vim
+install npm
+install w3m
+install wget
+
+
+install emacs --cocoa --srgb --HEAD --use-git-head --with-gnutls
+install notmuch --with-emacs
+install msmtp
+install offline-imap
+
+
+cleanup

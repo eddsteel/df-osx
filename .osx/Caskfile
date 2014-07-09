@@ -1,0 +1,33 @@
+install caskroom/cask/brew-cask
+
+cask install google-chrome
+cask install firefox
+
+cask install sequel-pro
+cask install cyberduck
+cask install gpgtools
+cask install virtualbox
+cask install tunnelblick
+cask install android-file-transfer
+
+cask install intellij-idea-ce
+cask install phpstorm
+cask install macvim
+#cask install emacs # -- lets use a custom homebrew build instead
+
+cask install google-drive
+cask install flux
+cask install ccmenu
+cask install alfred
+cask install spark
+
+cask install vlc
+cask install gimp
+cask install inkscape
+
+#cask install adium
+cask install hipchat
+cask install skype
+
+# add cask location to alfred
+cask alfred link
